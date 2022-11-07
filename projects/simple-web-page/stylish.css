@@ -1,0 +1,90 @@
+* {
+    font-family: helvetica, arial, sans-serif;
+} 
+
+body {
+	margin: 0px;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	color: green;
+
+}
+
+a {
+	color: green;
+}
+
+.menu ul li {
+	margin-top: 5px;
+}
+
+h1 span {
+	font-family: Palatino;
+	color: skyblue;
+	font-size: 110%; 
+}
+
+h2 {
+	color: #00bcd4;
+}
+
+
+h3 {
+	color: #00bcd4;
+}
+
+.title-wrapper {
+	height: 400px;
+	width: 100%;
+	background-size: 100% ; 
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+
+}
+
+.title-wrapper-home {
+	background-image: url("images/hills2.jpg");
+}
+
+.title-wrapper-walking {
+	background-image: url("images/malvernswalking.jpg");
+}
+
+.title-wrapper-cycling {
+	background-image: url("images/cyclists-sugarloaf.jpg");
+}
+
+.panel {
+	width: 80%;
+	margin: auto;	
+}
+
+.title {
+	font-family: palatino;
+	font-size: 25pt;
+	text-align: center;
+	color: #ffeb3b;
+	text-shadow: darkblue 2px 2px;
+}
+
+.title-content {
+	padding-top: 50px;
+}
+
+.content {
+	margin-top: 40px;
+	text-align: left;
+	margin-bottom: 60px;
+}
+
+.intro {
+	display: flex;
+	padding-bottom: 25px;
+}
+
+.map {
+	margin: 20px;
+}
